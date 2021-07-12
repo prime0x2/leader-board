@@ -19,13 +19,67 @@ main {
     border-radius: 10px;
 }
 
+.first-section{
+    margin-top: 7%;
+}
+
 hr {
     border: 1px solid #d1d1d1;
     margin-bottom: 30px;
 }
 
 
+
+/*----------------- navigation bar styles -----------------*/
+
+.header-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #562eff;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.logo-area img {
+    width: 40px;
+    height: 51px;
+}
+
+.logo-area span {
+    margin-left: 16px;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 17px;
+    color: white;
+}
+
+.nav-links img {
+    width: 100%;
+}
+
+
 /*------------------ top players styles ------------------*/
+
+
 
 .top-players {
     margin-bottom: 30px;
